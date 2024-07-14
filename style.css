@@ -492,12 +492,13 @@ input {
 nav .fas{
     display: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     
     .nav {
         flex-direction: column;
         align-items: center;
         padding-left: 10px;
+        margin: 10px;
     }
     nav .fas{
         display: block;
@@ -524,10 +525,11 @@ nav .fas{
     .home h1 {
         margin: 10px 20px 15px;
         padding-top: 30px;
-        font-size: 30px;
+        font-size: 40px;
     }
     .home p {
         margin: 20px 20px 40px;
+        font-size: 18px;
     }
     .link {
         margin: 10px 20px 20px;
@@ -695,6 +697,10 @@ nav .fas{
     }
     .foots2 h3{
         font-size: 15px;
+    }
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
     }
     
 }
