@@ -482,11 +482,18 @@ input {
     color: rgb(172, 7, 194);
 }
 /* ...................................................................footer.................................................................. */
+nav .fas{
+    display: none;
+}
 @media (max-width: 600px) {
     .nav {
         flex-direction: column;
         align-items: center;
         padding-left: 10px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
     }
     .heading h1{
         font-size: 30px;
@@ -644,6 +651,10 @@ input {
     }
     .form-container{
         grid-template-columns: 1fr;
+    }
+    .form-group, .form-group2, .button{
+        width: 200px;
+        padding: auto;
     }
     .ready a{
         text-decoration: none;
