@@ -15,7 +15,7 @@ body, html{
     align-items: center;
     margin: 30px;
     flex-wrap: wrap;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 nav ul{
     display: flex;
@@ -506,8 +506,8 @@ nav .fas{
     .nav {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
-        margin: 10px;
+        /* padding: 10px;
+        margin: 10px; */
     }
 
     .heading h1{
@@ -519,7 +519,7 @@ nav .fas{
         display: none;
         width: 100%;
     }
-    nav ul.menu.show {
+    .show {
         display: flex;
     }
     .fas{
